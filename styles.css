@@ -17,4 +17,29 @@ p {
 a {
   color: darkred;
   text-decoration: none;
-}   
+}
+
+Box Model Examples
+
+/* Outline wrapper so you can see the outer boundary */
+.example-wrapper {
+  outline: 1px dashed gray;
+  margin-top: 20px;
+}
+
+/* Demonstrates PADDING — space INSIDE the border */
+.box-padding {
+  border: 2px solid blue;
+  padding: 30px; /* padding example */
+  margin-bottom: 20px;
+  background-color: #eef6ff;
+  /* Padding increases space between content and border */
+}
+
+/* Demonstrates MARGIN — space OUTSIDE the border */
+.box-margin {
+  border: 2px solid green;
+  padding: 10px;
+  margin: 40px; /* margin example */
+  background-color: #eaffea;
+  /* Margin pushes this box away from
