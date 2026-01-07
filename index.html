@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Links and Images</title>
-</head>
-<body>
-  <h1>Homepage</h1>
+  <title>Odin Project Assignments</title>
   <link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+
+  <!-- Responsive Flexbox Navbar -->
+  <nav class="navbar">
+    <div class="logo">MySite</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1>Homepage</h1>
 
   <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">
     About The Odin Project
@@ -15,28 +26,28 @@
 
   <br><br>
 
-  <img src="https://via.placeholder.com/150" alt="A simple gray placeholder graphic used to test image placement on the page">
+  <img src="https://via.placeholder.com/150" 
+       alt="A simple gray placeholder graphic used to test image placement on the page">
 
+  <!-- Contact Form -->
   <h2>Contact Form</h2>
   <form>
     <label for="name">Name:</label>
     <input id="name" type="text" name="name">
-
     <br><br>
 
     <label for="email">Email:</label>
     <input id="email" type="email" name="email">
-
     <br><br>
 
     <label for="message">Message:</label>
     <textarea id="message" name="message"></textarea>
-
     <br><br>
 
     <button type="submit">Submit</button>
   </form>
 
+  <!-- Table -->
   <h2>Sample Data Table</h2>
   <table border="1">
     <tr>
@@ -53,10 +64,8 @@
     </tr>
   </table>
 
-  About me Assignment
-
+  <!-- About Me -->
   <h2>About Me</h2>
-
 
   <h2>Who I Am</h2>
   <p>Hello! My name is [Your Name]. This is my About Me page created using only HTML inside a single Codespace.</p>
@@ -70,33 +79,38 @@
   </ul>
 
   <h2>Fun Fact</h2>
-  <p>I built this page while staying inside one Codespace to avoid hitting
+  <p>I built this page while staying inside one Codespace to avoid hitting limits.</p>
 
-<h2>Box Model Examples</h2> 
-<div class="example-wrapper"> 
-  <div class="box-padding"> 
-    This box has more padding (space inside the border). 
-  </div> <div class="box-margin"> 
-    This box has more margin (space outside the border). 
+  <!-- Box Model Examples -->
+  <h2>Box Model Examples</h2>
+  <div class="example-wrapper">
+    <div class="box-padding">
+      This box has more padding (space inside the border).
+    </div>
 
-  </div> 
-  <div class="box-border"> 
-    This box has a thick border. 
+    <div class="box-margin">
+      This box has more margin (space outside the border).
+    </div>
 
-  </div> 
-</div> 
-</body> 
-  </html>
+    <div class="box-border">
+      This box has a thick border.
+    </div>
+  </div>
+
+  <!-- Centering Examples -->
   <h2>Centering Examples</h2>
 
-<div class="center-display">
-  Centered using display: block + margin auto
-</div>
+  <div class="center-display">
+    Centered using display: block + margin auto
+  </div>
 
-<div class="center-position">
-  Centered using position + transform
-</div>
+  <div class="center-position">
+    Centered using position + transform
+  </div>
 
-<div class="center-flex">
-  Centered using flexbox
-</div>
+  <div class="center-flex">
+    Centered using flexbox
+  </div>
+
+</body>
+</html>
