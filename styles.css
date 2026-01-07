@@ -43,3 +43,37 @@ Box Model Examples
   margin: 40px; /* margin example */
   background-color: #eaffea;
   /* Margin pushes this box away from
+CSS CENTERING EXAMPLES */
+
+/* 1. Center using display */
+.center-display {
+  width: 300px;
+  background: #d9eaff;
+  padding: 20px;
+  display: block;
+  margin: 20px auto; /* centers block elements horizontally */
+  text-align: center;
+}
+
+/* 2. Center using position */
+.center-position {
+  width: 300px;
+  background: #ffe6cc;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* pulls it back by half its width */
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* 3. Center using flexbox */
+.center-flex {
+  width: 300px;
+  height: 100px;
+  background: #e6ffe6;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+}
